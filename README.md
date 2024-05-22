@@ -2,6 +2,8 @@
 
 ## About Page
 
+This is my personal website created using reactjs. I have given all the details about the my technical work and experience, and my personal details too. Please have a look on the aesthetic terminal themed user-interface.
+
 ## Helper Commands
 
 In the project directory, you can run:
