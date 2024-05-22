@@ -1,0 +1,257 @@
+.sub-sec {
+    display: flex;
+    padding: 4em 2em;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.sub-sec-tab-console {
+    width: 84%;
+}
+
+.body-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    padding: 2em;
+    width: 84%;
+    color: var(--bright);
+}
+
+.body-grid>div {
+    background-color: var(--orange);
+    border: solid 2px var(--bright);
+    border-radius: 12px;
+    box-shadow: 12px 12px 0px 0px rgba(128, 128, 128, 0.4);
+    padding: 1em;
+    border: 2px solid var(--bright);
+}
+
+.back-button {
+    color: var(--bright);
+    background-color: var(--dark);
+    padding: 1em 2em;
+    border: solid 2px var(--bright);
+    border-radius: 36px;
+    box-shadow: 6px 6px 0px 0px rgba(128, 128, 128, 0.4);
+    margin: 1em;
+    transition: color 0.5s ease-out, background-color 0.5s ease-out, box-shadow 0.5s ease-out;
+}
+
+.back-button:hover {
+    color: var(--dark);
+    background-color: var(--bright);
+    box-shadow: 6px 6px 0px 0px rgba(1, 1, 3, 1);
+    cursor: pointer;
+}
+
+.grid-title {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-styles {
+    font-style: italic;
+}
+
+.grid-body-sub-title {
+    padding: 0em 0em 0.5em 0em;
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gen-icon {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.loc-btn {
+    cursor: pointer;
+}
+
+.sm-cnt-btn {
+    width: fit-content;
+    padding: 0.2em 0.4em;
+    border: solid 1px var(--bright);
+    border-radius: 0.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sm-logo-btn {
+    width: 4em;
+    height: 4em;
+}
+
+.cnt-grid-logo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
+    gap: 1em;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 1em;
+}
+
+.lang-font {
+    font-size: 2em;
+}
+
+.sm-link-btn{
+    margin-top: 0.6em;
+    cursor: pointer;
+}
+
+.link-btn-href{
+    text-decoration: none;
+    color: var(--bright);
+}
+
+.sm-btn-cont{
+    display: flex;
+    gap: 0.6em;
+}
+
+/* -----------------Carousel----------------- */
+
+.carousel-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 200px;
+    white-space: nowrap;
+    scrollbar-width: none;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+.carousel-photo {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0.6em;
+    border: solid 1px var(--bright);
+}
+
+.carousel-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-button {
+    background-color: transparent;
+    border: solid 1px var(--bright);
+    color: var(--bright);
+    font-weight: bold;
+    padding: 0.6em 1em;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 0.4em;
+}
+
+.car-btn-cont{
+    margin-top: 0.6em;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* ------------------------RESPONSIVENESS----------------------- */
+@media (max-width: 768px) {
+    .body-grid {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* ----------------TIMELINE--------------------------- */
+
+.timeline-container {
+    overflow-x: auto;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+    padding-bottom: 2em;
+    width: 78%;
+}
+
+.timeline-container:hover {
+    scroll-behavior: smooth;
+}
+
+.timeline {
+    display: flex;
+    min-height: 12em;
+}
+
+.timeline-marker {
+    position: relative;
+    text-align: center;
+    margin: 1em 0.3em;
+}
+
+.line {
+    width: 1px;
+    height: 12px;
+    background-color: var(--bright);
+    margin: 0 auto;
+    position: absolute;
+    top: 18%;
+}
+
+.line.long {
+    height: 32px;
+    width: 2px;
+    position: absolute;
+}
+
+.event {
+    color: var(--bright);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.year {
+    font-weight: bold;
+}
+
+.description {
+    display: block;
+    opacity: 0;
+    min-width: 9em;
+    transition: opacity 0.4s ease-in-out;
+    pointer-events: none;
+}
+
+.tm-icon {
+    width: 1.4em;
+    height: 1.4em;
+    margin-top: 52%;
+    transition: margin-top 0.4s ease-in-out;
+}
+
+
+.event:hover .description {
+    opacity: 1;
+}
+
+.event:hover .tm-icon {
+    margin-top: 56%;
+}
+
+/* ------------------------------------------------- */

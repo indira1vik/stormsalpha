@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: 'Consolas', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Consolas', monospace;
+}
+
+:root {
+  --dark: #010103;
+  --bright: #e8e8e8;
+  --maroon: #aa0101;
+  --dark-blue: #122680;
+  --orange: #8B4513;
+  --bg-color: #300A26;
+  --link-color: #0f82af;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--orange);
+}

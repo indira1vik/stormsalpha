@@ -1,0 +1,41 @@
+.welcome {
+    text-align: center;
+    position: relative;
+    transition: opacity 1s ease-out;
+}
+
+.welcome-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--bright);
+}
+
+.welcome-text {
+    font-weight: bold;
+    font-size: 4em;
+    position: relative;
+}
+
+.cursor {
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+
+    from,to {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+/* ------------------------RESPONSIVENESS----------------------- */
+@media (max-width: 768px) {
+    .welcome-text {
+        font-size: 2em;
+    }
+}
