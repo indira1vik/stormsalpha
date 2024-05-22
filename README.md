@@ -1,4 +1,4 @@
-# My Portfolio - Stormsalpha's Console
+# My Portfolio - Indirakanth's Console
 
 ## About Page
 
