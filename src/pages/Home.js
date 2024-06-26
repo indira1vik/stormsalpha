@@ -87,7 +87,7 @@ function Home() {
                         <div className="divider">-----------------------------------------------------------------------------------</div>
                         <div className="prompt">stormsalpha:\&gt; find / -name "resume.pdf"</div>
                         <div className="content">
-                            <a className="link-format" href="https://drive.google.com/file/d/10eeN1oL5Llm9q1oyE_bVkidxWcAC7yAS/view?usp=sharing" target="_blank" rel="noopener noreferrer">/stormsalpha/link-to-view/resume.pdf</a>
+                            <a className="link-format" href="https://drive.google.com/file/d/1kGuKsfvljg43Gb66Vl1JfVgX0o9hvqgk/view?usp=sharing" target="_blank" rel="noopener noreferrer">/stormsalpha/link-to-view/resume.pdf</a>
                         </div>
                         <div className="divider">-----------------------------------------------------------------------------------</div>
                         <div className="prompt">stormsalpha:\&gt; unzip links.zip</div>
@@ -115,10 +115,9 @@ function Home() {
                 </div>
             </div>
             <div className="footer">
-                <div>Last edited: 15th May, 2024</div>
+                <div>Last edited: 26th June, 2024</div>
                 <div className='footer-links'>
                     <div>Design inspirations from</div>
-                    <a className='des-link' href='https://jeeveshkrishna.com/' target='_blank' rel="noopener noreferrer">jeeveshkrishna.com</a>
                     <a className='des-link' href='https://s3gfault.dev/' target='_blank' rel="noopener noreferrer">s3gfault.dev</a>
                     <a className='des-link' href='https://flext.dev/' target='_blank' rel="noopener noreferrer">flext.dev</a>
                 </div>

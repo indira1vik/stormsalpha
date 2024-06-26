@@ -32,7 +32,7 @@
 .back-button {
     color: var(--bright);
     background-color: var(--dark);
-    padding: 1em 2em;
+    padding: 0.7em 1.4em;
     border: solid 2px var(--bright);
     border-radius: 36px;
     box-shadow: 6px 6px 0px 0px rgba(128, 128, 128, 0.4);
@@ -157,10 +157,10 @@
     border: solid 1px var(--bright);
     color: var(--bright);
     font-weight: bold;
-    padding: 0.6em 1em;
+    padding: 0.4em 0.7em;
     cursor: pointer;
     z-index: 1;
-    border-radius: 0.4em;
+    border-radius: 2em;
 }
 
 .car-btn-cont{

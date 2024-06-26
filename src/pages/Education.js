@@ -67,7 +67,7 @@ function Education() {
                             <div className="grid-body-sub-title"><span>Chennai, Tamil Nadu, India</span><span>Sep '20 - May '24</span></div>
                         </div>
                         <div className='sm-cnt-btn'>
-                            CGPA: 8.63 / 10
+                            CGPA: 8.68 / 10
                         </div>
                     </div>
                     <div>

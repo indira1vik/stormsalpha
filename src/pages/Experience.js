@@ -39,7 +39,7 @@ function Experience() {
                         <div className="grid-title">App Developer Intern</div>
                         <hr></hr>
                         <div>
-                            <div className="grid-body-sub-title"><span>Regenboog India Foundation</span><span>Dec '23 - Apr '24</span></div>
+                            <div className="grid-body-sub-title"><span>Regenboog India Foundation</span><span>Jan '24 - May '24</span></div>
                             <div>
                                 Evening School App: Actively contributed to the develop a cross-platform attendance app using Flutter for a non-profit organization. The app is designed to streamline student attendance monitoring and academic data management for teachers, particularly benefiting schools in rural areas.
                             </div>

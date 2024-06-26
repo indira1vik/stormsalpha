@@ -96,6 +96,19 @@ function Projects() {
                         </div>
                     </div>
                     <div>
+                        <div className="grid-title">Red Rust AI</div>
+                        <hr></hr>
+                        <div className="grid-body-sub-title"><span>Rust, Slint GUI</span></div>
+                        <div>
+                            Developed a desktop application with rust and slint, a new GUI tool framework. Using the rust-bert library or crate (in rust), this application explores machine learning techniques such as sentiment analysis and paragraph summarization in different tabs in the app. As this is a beginner project, it covers some of the basic concepts in the Rust programming language and due to its speed and memory safety, Rust is ideal for machine learning concepts.
+                        </div>
+                        <div className='sm-btn-cont'>
+                            <div className='sm-cnt-btn sm-link-btn'>
+                                <a href='https://github.com/indira1vik/red-rust-ai' target='_blank' rel="noreferrer" className='link-btn-href'>Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
                         <div className="grid-title">The PairMe - Memory Game</div>
                         <hr></hr>
                         <div className="grid-body-sub-title"><span>Javascript</span></div>
