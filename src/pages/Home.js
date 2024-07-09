@@ -87,7 +87,7 @@ function Home() {
                         <div className="divider">-----------------------------------------------------------------------------------</div>
                         <div className="prompt">stormsalpha:\&gt; find / -name "resume.pdf"</div>
                         <div className="content">
-                            <a className="link-format" href="https://drive.google.com/file/d/1kGuKsfvljg43Gb66Vl1JfVgX0o9hvqgk/view?usp=sharing" target="_blank" rel="noopener noreferrer">/stormsalpha/link-to-view/resume.pdf</a>
+                            <a className="link-format" href="https://drive.google.com/file/d/1E1JD3yHbevpy9yhNxiFPqPCxM4iLLUeR/view?usp=sharing" target="_blank" rel="noopener noreferrer">/stormsalpha/link-to-view/resume.pdf</a>
                         </div>
                         <div className="divider">-----------------------------------------------------------------------------------</div>
                         <div className="prompt">stormsalpha:\&gt; unzip links.zip</div>
